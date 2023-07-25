@@ -10,7 +10,7 @@ namespace NethereumSample
         {
             Console.WriteLine("[C3P0] : Hy I'm C3P0 and I will help you to manage or create your wallet");
             Console.Write("[C3P0] : Enter your password = ");
-            string? myPassword = "Pierre01&&";
+            string? myPassword = Console.WriteLine();
             while(myPassword == "")
             {
                 myPassword = Console.ReadLine();
